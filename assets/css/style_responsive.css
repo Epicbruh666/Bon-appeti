@@ -1,0 +1,463 @@
+@import url('http://fonts.cdnfonts.com/css/vladimir');
+@import url('http://fonts.cdnfonts.com/css/script-mt');
+
+@media only screen and (min-width: 360px) and (max-width: 966px){
+
+    div.bordure {
+        border-bottom:5px solid #616161;
+    }
+
+    /* ---------------Navigation-------------------- */
+    
+       header{
+           width: 100vw;
+           height: 10vh;
+           background: none;
+       }
+
+       .img-header-non-responsive{
+            display: none;
+       }
+
+       .img-presentation-resoponsive{
+            height: 30vh;
+            background: url(/assets/img/ressources/makereservation_dark.jpg);
+            background-size: cover;
+       }
+       .navbar{
+           padding: 0px;
+       }
+       .navbar .Title{
+           padding-top: 10px;
+           font-size: 40px;
+           font-family: Vladimir Script;
+           color: #616161;
+       } 
+
+       .navbar .menu-hamburger{
+           display: block;
+           position: absolute;
+           width: 10%;
+           left: 0;
+           right: 0px;
+       }
+       .nav-links{
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100vh;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           margin-left: -100%;
+           backdrop-filter: blur(4px);
+           background-color:rgba(103,103,103,0.5);
+           transition: all 0.5s ease;
+       }
+       
+       
+        .navbar .nav-links a{
+            font-family: Arial, sans-serif;
+        }
+   
+       .nav-links.mobile-menu{
+           margin-left: 0;
+           z-index: -1px;
+       }
+   
+       .nav-links ul{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+   
+       .navbar .nav-links ul li{
+           margin: 12px 0px;
+           font-size: 1.2em;
+       }
+   
+       /* ---------------La carte-------------------- */
+   
+       #la_carte{
+         display: flex;
+         flex-flow: row wrap;
+         justify-content: center;
+         align-items: center;
+       }
+
+       #la_carte .img-carte{
+        width: 40%;
+        padding: 7px;
+       }
+
+       #la_carte .flex-carte-one{
+           padding: 5px;
+           display: flex;
+           justify-content: center;
+           flex-flow: row wrap;
+       }
+       #la_carte .flex-carte-two{
+           padding: 5px;
+           display: flex;
+           justify-content: center;
+           flex-flow: row wrap;
+       }
+   
+       #la_carte .carte-one-content{
+           display: flex;
+           justify-content: space-evenly;
+           font-family: Script MT;
+           font-size: 25px;
+       }
+   
+       #la_carte .carte-two-content{
+           display: flex;
+           justify-content: space-evenly;
+           font-family: Script MT;
+           font-size: 25px;
+       }
+     
+       .img{
+           border-top-left-radius: 10px;
+           border-top-right-radius: 10px;
+       }
+       .word{
+           border-bottom-left-radius: 10px;
+           border-bottom-right-radius: 10px;
+       }
+       .title_carte{
+           font-family: Script Mt;
+           color: #616161;
+           text-align: center;
+           padding: 10px;
+           font-size: 40px;
+       }
+
+
+/* ---------------------section chef ------------------------- */
+
+       #chef{
+            height: auto;
+            padding-top: 100px;
+       }
+    
+    .c_one{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: Script Mt;
+        height: auto;
+    }
+    .c_one h2{
+        padding-left: 25px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .c_two{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        padding: 0;
+        height: 30vh; 
+    }
+    .c_three{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        height: 30vh; 
+    }
+    .c_four{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        height: 30vh; 
+    }
+    .c_five{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        height: 30vh; 
+    }
+    #chef .imgp{
+        width: 50%;
+    }
+    #chef p {
+        text-align: center;
+        font-family: Arial;
+    }
+    #chef span{
+        font-family: Script Mt;
+        text-align: center;
+        font-size: 35px;
+    }
+    #citation{
+        display: block;
+        background-color: black;
+        margin: 0px;
+        color: white;
+        font-family: Script Mt;
+        text-align: center;
+        padding-top: 10px;
+        height: 15vh;
+    }
+
+    .img_signature img{
+        width: 20%;
+    }
+
+    /* -------------section reservation-------------- */
+
+
+    .flex-img {
+        display: none;
+    }
+
+    #reservation{
+        width: 100%;
+        height: auto;
+    }
+
+    .flex-reservation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center{
+        text-align: center;
+    }
+    .box_reservation{
+        margin: 0px;
+        background-color: #FFEAEA;
+        font-size: x-large;
+    }
+    .titre{
+        text-align: center;
+        font-size: xxx-large;
+        padding-bottom: 20px;
+        font-family:Script MT;
+        text-decoration: underline;
+        color: #616161;
+    }
+    .title_number{
+        text-align: center;
+        padding-bottom: 10px;
+        color: #616161;
+        font-family: Arial, sans-serif;
+    }
+    .number_of_people{
+        display: flex;
+        justify-content:center;
+    }
+    .number_choosen{
+        background-color: white;
+        padding: 10px;
+        width: 5vw;
+        border: 1px solid #FFEAEA;
+        font-family:Script MT;
+    }
+    .number_choosen:hover{
+        background-color: grey;
+    }
+    .border_1{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .border_6{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .date_and_hour{
+        text-align: center;
+        padding-top: 20px;
+        font-family: Arial, sans-serif;
+    }
+    .div_calendar{
+        display: flex;
+        justify-content: center;
+    }
+    .calendar{
+        padding-bottom: 20px;
+    }
+    .family_name{
+        font-family:Script MT;
+        border-radius: 5px;
+        height: 30px;   
+    }
+    .myButton {
+        margin-bottom: 30px;
+        margin-top: 30PX;
+        background:linear-gradient(to bottom, #d73f3f 5%, #d73f3f 100%);
+        background-color:#d73f3f;
+        border-radius:42px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Script MT;
+        font-size:25px;
+        padding:15px 50px;
+        text-decoration:none;
+        text-shadow:0px 0px 0px #bd3bb9;
+    }
+    .myButton:hover {
+        background:linear-gradient(to bottom, #d73f3f 5%, #d73f3f 100%);
+        background-color:#d73f3f;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+    
+
+
+
+
+   /* ---------------Témoignagne-------------------- */
+       
+
+        .title-temoignage-non-responsive{
+            display: none;
+        }
+        #temoignage-non-responsive{
+            display: none;
+        }
+
+       #temoignage {
+           width: 100vw;
+           height: auto;
+           display: flex;
+           flex-flow: column wrap;
+           justify-content: center;
+           align-items: center;
+       }
+       
+       .separation-box-content{
+           width: 100vw;
+           height: 5vh;
+       }
+   
+       .img-temoignage{
+           width: 80vw;
+           border-top-left-radius: 10px;
+           border-top-right-radius: 10px;
+       }
+       
+       .title-temoignage {
+           padding: 30px;
+           font-size: 40px;
+           color: #616161;
+           font-family: Script MT;
+       }
+   
+       .box-content{
+           width: 80vw;
+           height: 35vh;
+           border-bottom-left-radius: 10px;
+           border-bottom-right-radius: 10px;
+           background: #FFFF; 
+           border: solid #FFFF 5px; 
+           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+       }
+   
+       .box-content .name-content{
+           font-size: 30px;
+           font-family: Arial, sans-serif;
+           font-weight: bold;
+           color: #616161;
+       }
+   
+       .box-content .text-content{
+           padding-top: 20px;
+           font-size: 17px;
+           font-family: Arial, sans-serif;
+           color: #7F7F7F;
+       }
+   
+       /* ---------------Footer-------------------- */
+   
+       .footer-separation{
+           padding-top: 50px;
+       }
+
+       footer .flex-img-non-responsive img{
+            display: none;
+        }
+    
+   
+       footer{
+          display: block;
+           margin: 0;
+           width: 100%;
+           height: auto;
+           background-color: #272727;
+           color: white;
+           text-align: center;
+       }
+
+       footer .flex-content{
+        display: flex;
+        flex-flow: column ;
+        justify-content: center;
+        align-items: center;
+       }
+   
+       footer .footer-title{
+           font-size: 38px;
+           font-family:Vladimir Script;
+       }
+       
+       footer .footer-copyright{
+           padding-top: 20px;
+           font-size: 20px;
+           font-family:Arial, sans-serif;
+       }
+   
+       footer .footer-adresse{
+           padding-top: 20px;
+           font-size: 30px;
+           font-family:Arial, sans-serif;
+       }
+   
+       footer .footer-line{
+           border: none;
+           border-top: 2px solid;
+           color: #616161;
+           text-align: center;
+       }
+   
+       footer .footer-phone{
+           font-size: 30px;
+           font-family:Arial, sans-serif;
+       }
+   
+       footer .footer-open{
+           padding-top: 20px;
+           font-size: 30px;
+           font-family:Script MT;
+       }
+       footer .footer-join{
+           padding-top: 20px;
+           font-size: 25px;
+           font-family:Script MT;
+       }
+   
+       
+       footer .flex-img{
+           padding-top: 20px;
+           display: flex;
+           justify-content: space-evenly;
+           flex-flow: row wrap;
+       }
+   
+       footer .flex-img img{
+           width: 10%;
+       }
+   }
+   

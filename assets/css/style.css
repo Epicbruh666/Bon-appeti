@@ -1,0 +1,498 @@
+@import url('http://fonts.cdnfonts.com/css/vladimir');
+@import url('http://fonts.cdnfonts.com/css/script-mt');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    background: border-box;
+}
+
+div.bordure {
+    border-bottom:5px solid #616161;
+}
+
+/* ---------------Nav Bar-------------------- */
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background: url(/assets/img/ressources/testimonal_background_dark.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar .nav-links{
+    padding-top: 50px;
+}
+
+.navbar .Title{
+    font-size: 60px;
+    font-family: Vladimir Script;
+    color: white;
+} 
+
+
+.navbar .nav-links a {
+    font-size: 27px;
+    color: white;
+    font-family: Script MT;
+    transition: all 0.5s ease;
+}
+
+.nav-links a:hover {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.barre_hr {
+    background-color: #616161;
+    text-align: center;
+    height: 2px;
+    width: 100%;
+    border: none;
+}
+.navbar .nav-links ul{
+    display: flex;
+}
+
+.navbar  .nav-links ul li{
+    margin: 0 25px;
+}
+
+.navbar .menu-hamburger{
+    display: none; 
+}
+
+#la_carte{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+#la_carte .title_carte{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #616161;
+    text-align: center;
+    font-size: 45px;
+    font-family: Script Mt;
+}
+
+#la_carte .flex-carte-one{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+#la_carte .flex-carte-two{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+#la_carte .carte-one-content{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    font-size: 27px;
+    color: #616161;
+    font-family: Script MT;
+}
+
+#la_carte .carte-two-content{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    font-size: 27px;
+    color: #616161;
+    font-family: Script MT;
+}
+
+#la_carte .img-carte{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 20%;
+}
+
+
+#reservation{
+    width: 100vw;
+    height: auto;
+}
+
+.flex-reservation{
+    display: flex;
+}
+.flex-reservation .box-reservation{
+    width: 55%;
+    height: 80vh;
+    background-color: #FFEAEA;
+}
+
+.flex-reservation .box-img img{
+    width: 100%;
+    height: 80vh;
+}
+
+/* --------------------Section chef----------------------- */
+
+#chef {
+    padding-top: 250px;
+    height: auto;
+}
+
+.c_one{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Script Mt;
+    
+}
+.c_one h2{
+    padding-left: 250px;
+    text-align: center;
+    font-size: 60px;
+}
+.c_two{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    padding: 0;
+}
+.c_three{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.c_four{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+.c_five{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row; 
+}
+#chef .imgp{
+    width: 50%;
+
+}
+#chef p {
+    text-align: center;
+    font-family: Arial;
+}
+#chef span{
+    font-family: Script Mt;
+    text-align: center;
+    font-size: 40px;
+}
+#citation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0px;
+    color: white;
+    font-family: Script Mt;
+    text-align: center;
+    padding-top: 10px;
+    height: 20vh;
+}
+.img_signature img{
+    width: 40%;
+}
+
+
+  /* ------------------Section reserver------------------ */
+
+#reservation{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+
+#reservation .flex-img img{
+    width: 50vw;
+    height: 50vh;
+}
+
+.flex-reservation{
+    width: 100%;
+    height: 50vh;
+    background-color: pink;
+}
+
+ .center{
+    text-align: center;
+}
+.box_reservation{
+    display: flex;
+    justify-content: center;
+    flex-flow: row ;
+    align-items: center;
+    margin: 0px;
+    background-color: #FFEAEA;
+    font-size: x-large;
+    height: 70vh;
+}
+.titre{
+    text-align: center;
+    font-size: xxx-large;
+    padding-bottom: 20px;
+    font-family:Script MT;
+    text-decoration: underline;
+    color: #616161;
+}
+.title_number{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #616161;
+    font-family: Arial, sans-serif;
+}
+.number_of_people{
+    display: flex;
+    justify-content: center;
+}
+.number_choosen{
+    background-color: white;
+    padding: 10px;
+    width: 5vw;
+    border: 1px solid #FFEAEA;
+    font-family:Script MT;
+}
+.number_choosen:hover{
+    background-color: grey;
+}
+.border_1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.border_6{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.date_and_hour{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+}
+.div_calendar{
+    display: flex;
+    justify-content: center;
+}
+.calendar{
+    padding-bottom: 20px;
+}
+.family_name{
+    font-family:Script MT;
+    border-radius: 5px;
+    height: 30px;   
+}
+.myButton {
+    margin-bottom: 30px;
+    margin-top: 30PX;
+	background:linear-gradient(to bottom, #d73f3f 5%, #d73f3f 100%);
+	background-color:#d73f3f;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Script MT;
+	font-size:25px;
+	padding:15px 50px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #bd3bb9;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #d73f3f 5%, #d73f3f 100%);
+	background-color:#d73f3f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+} 
+
+
+
+/* ------------Animation carousel css pour la section témoignage--------------- */
+
+
+  #temoignage{
+    display: none;
+}
+
+
+#temoignage-non-responsive{
+    padding-left: 400px;
+    padding-top: 80px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#title-temoignage-non-responsive{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+  input[type="radio"] {
+    display: none;
+  }
+
+.title-temoignage-non-responsive{
+    padding-top: 40 px;
+    text-align: center;
+    font-size: 45px;
+    color: #616161;
+    font-family: Script MT;
+  }
+  
+  .card {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    transform-style: preserve-3d;
+  }
+
+  
+ .card img {
+    width: 100%;
+    height: 100;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  #item-1:checked ~ .cards #song-3,
+  #item-2:checked ~ .cards #song-1,
+  #item-3:checked ~ .cards #song-2 {
+    transform: translatex(-40%) scale(0.8);
+    opacity: 0.1;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-2,
+  #item-2:checked ~ .cards #song-3,
+  #item-3:checked ~ .cards #song-1 {
+    transform: translatex(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-1,
+  #item-2:checked ~ .cards #song-2,
+  #item-3:checked ~ .cards #song-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+
+}
+
+/* ---------------------Footer-------------------- */
+
+footer .flex-img {
+    display: none;
+}
+
+.footer-place{
+    padding-top: 150px;
+}
+footer {
+    background-color: #272727;
+}
+
+footer .flex-content{
+    height: 30vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+footer .flex-join{
+   width: fit-content;
+}
+
+footer .footer-title{
+    color: #FFFF;
+    text-align: center;
+    font-size: 50px;
+    font-family: Vladimir Script;
+}
+footer .footer-open{
+    color: #FFFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: Script MT;
+}
+
+footer .footer-join{
+    color: #FFFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: Script MT;
+}
+
+footer .footer-adresse{
+    color: #FFFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+footer .footer-phone{
+    color: #FFFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+footer .footer-copyright{
+    text-align: center;
+    font-size: 20px;
+    color: #FFFF;
+    font-family: Arial, sans-serif;
+}
+
+footer .flex-img-non-responsive img{
+    padding-top: 10px;
+    margin: 0;
+    width: 50px;
+}
+

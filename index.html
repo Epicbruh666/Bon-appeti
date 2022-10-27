@@ -1,10 +1,332 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style_responsive.css">
+  <script src="/assets/js/script.js" defer></script>
+  <title>Bon Appetit</title>
+</head>
+
+<body>
+  <header id="header">
+    <div class="img-header-non-responsive"></div>
+    <nav class="navbar">
+      <a href="#" class="Title">Bonn appétit</a>
+      <div class="nav-links">
+        <ul>
+          <li><a href="#header"">Acceuil</a></li>
+                    <div class=" bordure">
+      </div>
+      <li><a href="#la_carte">La Carte</a></li>
+      <div class=" bordure">
+      </div>
+      <li><a href="#chef">Les Créations <br>
+          <center>Du Chef</center>
+        </a></li>
+      <div class="bordure"></div>
+      <li><a href="#reservation">Réserver</a></li>
+      <div class="bordure"></div>
+      <li><a href="#temoignage-non-responsive">Les Témoignages</a></li>
+      </ul>
+      </div>
+
+      <img src="/assets/img/ressources/menu-burger.png" alt="menu-burger" class="menu-hamburger">
+
+    </nav>
+  </header>
+
+  <!-- ----------------------------Main--------------------------------- -->
+
+
+  <main>
+    <div class="img-presentation-resoponsive"></div>
+    <section id="la_carte">
+      <div class="title_carte">
+        <p>La carte</p>
+        <div class="bordure">
+          <div></div>
+        </div>
+      </div>
+      <div>
+        <div class="flex-carte-one">
+          <img src="assets/img/ressources/food_4_dark.jpg" alt="burger" class="img-carte">
+          <img src="assets/img/ressources/food_5_dark.jpg" alt="crevettes" class=" img-carte">
+        </div>
+        <div class="carte-one-content">
+          <div>
+            <p>8.99€<br>Burger <br>
+            </p class="word">
+          </div>
+          <div>
+            <p>7.99<br>crevettes</p class="word">
+          </div>
+        </div>
+
+      </div>
+      <div>
+        <div class="flex-carte-two">
+          <img src="assets/img/ressources/food_10_dark.jpg" alt="burger" class="img-carte">
+          <img src="assets/img/ressources/food_1_dark.jpg" alt="crevettes" class="img-carte">
+        </div>
+        <div class="carte-two-content">
+          <div>
+            <p>4.99<br>encas</p class="word">
+          </div>
+          <div>
+            <p>3.99<br>salades</p class="word">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ----------------------------Section chef--------------------------------- -->
+
+
+    <section id="chef">
+      <div class="c_one">
+        <h2>
+          Les <br />
+          Créations <br />
+          du Chef
+        </h2>
+        <img src="assets/img/ressources/chef_dark.jpg" alt="le chef" class="imgp" />
+      </div>
+      <div class="c_two">
+        <p>
+          <span>Poires à la cannelle :</span><br /><br />
+        </p>
+        <img src="assets/img/ressources/cover_dark.jpg" alt="asiette" class="imgp" />
+      </div>
+
+      <div class="c_three">
+        <p>
+          <span>Steak protéiné :</span><br /><br />
+        </p>
+        <img src="assets/img/ressources/food_11_dark.jpg" alt="asiette" class="imgp" />
+      </div>
+      <div class="c_four">
+        <p>
+          <span>Cœur de palmiers:</span><br /><br />
+        </p>
+        <img src="assets/img/ressources/food_7_dark.jpg" alt="asiette" class="imgp" />
+      </div>
+      <div class="c_five">
+        <p>
+          <span>La Sauce :</span><br /><br />
+        </p>
+        <img src="assets/img/ressources/food_2_dark.jpg" alt="asiette" class="imgp" />
+      </div>
+    </section>
+
+    <!-- ----------------------------Section citation--------------------------------- -->
+
+
+    <section id="citation">
+      <p>
+        « Si je n’ai pas la cinquième étoile cette <br />
+        année, je me retire de la course aux <br />
+        distinctions dans les guides. »
+      </p>
+      <div class="img_signature">
+        <img src="assets/img/ressources/signature.png" alt="signature" />
+      </div>
+    </section>
+
+    <!------------------------- Section reservation----------------------------- -->
+
+    <section id="reservation">
+      <div class="flex-reservation">
+        <div class="center">
+          <p class="titre">Réserver</p>
+          <p class=" title_number">Nombre de personne</p>
+          <div class="number_of_people">
+            <div class="number_choosen border_1">1</div>
+            <div class="number_choosen">2</div>
+            <div class="number_choosen">3</div>
+            <div class="number_choosen">4</div>
+            <div class="number_choosen">5</div>
+            <div class="number_choosen border_6">6</div>
+          </div>
+          <div>
+            <p class="date_and_hour">Date et Heure</p>
+            <input type="date" id="start" name="trip-start" value="2018-07-22" min="2022-01-01" max="2023-12-31">
+            <br>
+            <label class="name_title" for="Nom">Nom</label>
+            <br />
+            <input class="family_name" type="text" id="Nom" name="Nom" required minlength="2" maxlength="50" size="15 ">
+          </div>
+          <a href="#" class="myButton">Envoyer</a>
+        </div>
+      </div>
+      <div class="flex-img">
+        <img src="/assets/img/ressources/makereservation_dark.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- ----------------------------Section temoignage--------------------------------- -->
+
+
+    <section id="temoignage">
+      <div class="title-temoignage">
+        <p>Les témoignages</p>
+        <div class="bordure"></div>
+      </div>
+      <div class="box-one">
+        <img class="img-temoignage" src="/assets/img/ressources/testimonial_1_dark.jpg" alt="">
+
+        <div class="box-content">
+          <p class="name-content">Justine T. </p>
+          <div class="img-etoile">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+          </div>
+          <p class="text-content">
+            Ce fut un excellent moment que nous
+            avons passé à 6 dans ce restaurant où
+            nous avons été fort bien reçus. Les
+            plats étaient superbes et très bons, le
+            serveur était vraiment très gentil et
+            soucieux de notre confort. Merci pour
+            votre accueil et à bientôt ! 🙂
+          </p>
+
+        </div>
+      </div>
+
+      <div class="separation-box-content"></div>
+
+      <div class="box-two">
+        <img class="img-temoignage" src="/assets/img/ressources/testimonial_2_dark.jpg" alt="">
+
+        <div class="box-content">
+          <p class="name-content">Lola M.</p>
+          <div class="img-etoile">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+          </div>
+          <p class="text-content text-content-two">
+            Ce petit restaurant est TOOOP ! La
+            cuisine est très bonne, le personnel
+            était très accueillant et le service parfait.
+            C’est sûr, nous reviendrons ! Merci
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="separation-box-content"></div>
+
+      <div class="box-three">
+        <img class="img-temoignage" src="/assets/img/ressources/testimonial_3_dark.jpg" alt="">
+
+        <div class="box-content">
+          <p class="name-content">Lucie P.</p>
+          <div class="img-etoile">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+            <img src="/assets/img/ressources/etoile.png" alt="image-etoile" width="6%">
+          </div>
+          <p class="text-content">
+            Endroit qui ramène aux choses vraies,
+            simples sans fioritures. De vrais plats
+            faits maison avec Amour. Un patron
+            chaleureux qui prend soin de ses
+            convives comme s ils étaient de la
+            famille…. Mon burger a ravivées des
+            souvenirs de plats familiaux. Bref un
+            très beau moment, je recommande…
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ----------------------------Section témoignage non responsive--------------------------------- -->
+
+
+    <section id="title-temoignage-non-responsive">
+      <div class="title-temoignage-non-responsive">
+        <p>Les témoignages</p>
+        <div class="bordure"></div>
+      </div>
+
+    </section>
+    <section id="temoignage-non-responsive">
+      <div class="container">
+        <input type="radio" name="slider" id="item-1" checked>
+        <input type="radio" name="slider" id="item-2">
+        <input type="radio" name="slider" id="item-3">
+        <div class="cards">
+          <label class="card" for="item-1" id="song-1">
+            <img src="/assets/img/Justine_T.png" alt="song">
+          </label>
+          <label class="card" for="item-2" id="song-2">
+            <img src="assets/img/Lola_M.png" alt="song">
+          </label>
+          <label class="card" for="item-3" id="song-3">
+            <img src="/assets/img/Lucie_P.png" alt="song">
+          </label>
+
+        </div>
+    </section>
+
+    <!-- ----------------------------Section footer--------------------------------- -->
+
+
+
+    <div class="footer-place">
+      <footer>
+        <div>
+          <p class="footer-title">Bon appetit</p>
+          <p class="footer-open">Ouvert de 8h00 à 22h30</p>
+        </div>
+        <div class="bordure"></div>
+        <div class="flex-content">
+          <div>
+            <p class="footer-adresse">70 rue des Jacobins
+              80000 Amiens</p>
+            <p class="footer-phone">Tél : 09.00.00.00.00</p>
+          </div>
+          <div class="flex-join">
+            <div>
+              <p class="footer-join">Rejoigner-nous !</p>
+            </div>
+            <div class="flex-img-non-responsive">
+              <img src="assets/img/ressources/instagram.png" alt="">
+              <img src="assets/img/ressources/twitter.png" alt="">
+              <img src="assets/img/ressources/youtube.png" alt="">
+              <img src="assets/img/ressources/facebook.png" alt="">
+            </div>
+            <div class="flex-img">
+              <img src="assets/img/ressources/instagram.png" alt="">
+              <img src="assets/img/ressources/twitter.png" alt="">
+              <img src="assets/img/ressources/youtube.png" alt="">
+              <img src="assets/img/ressources/facebook.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="bordure"></div>
+
+        <div class="footer-copyright">
+          <p>Designed by Team Patrick</p>
+        </div>
+      </footer>
+
+    </div>
+  </main>
+</body>
+
 </html>
