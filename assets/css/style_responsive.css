@@ -84,6 +84,7 @@
          flex-flow: row wrap;
          justify-content: center;
          align-items: center;
+         background-color: #F2F2F2;
        }
 
        #la_carte .img-carte{
@@ -137,9 +138,15 @@
 
 /* ---------------------section chef ------------------------- */
 
+       #chef-non-responsive{
+            display: none;
+       }
+
        #chef{
+            display: block;
             height: auto;
             padding-top: 100px;
+            background-color: #F2F2F2;
        }
     
     .c_one{
@@ -220,6 +227,7 @@
     }
 
     #reservation{
+        padding-top: 20px;
         width: 100%;
         height: auto;
     }

@@ -80,6 +80,7 @@ header {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    background-color: #F2F2F2;
   }
 
 #la_carte .title_carte{
@@ -152,83 +153,138 @@ header {
 
 /* --------------------Section chef----------------------- */
 
-#chef {
-    padding-top: 250px;
-    height: auto;
+#chef{
+    display: none;
 }
 
-.c_one{
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: Script Mt;
-    
+#chef-non-responsive{
+    padding-top: 150px;
+    width: 100vw;
+    height: 70vh;
 }
-.c_one h2{
-    padding-left: 250px;
-    text-align: center;
-    font-size: 60px;
-}
-.c_two{
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    padding: 0;
-}
-.c_three{
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-.c_four{
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-}
-.c_five{
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row; 
-}
-#chef .imgp{
-    width: 50%;
 
+#chef-non-responsive .first-partie-content{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    background-color: #F2F2F2;
 }
-#chef p {
+
+#chef-non-responsive .first-left{
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+#chef-non-responsive .first-left p{
+    padding-left: 20px;
+    padding-right: 50px;
+    font-size: 70px;
+    font-family: Script MT;
     text-align: center;
-    font-family: Arial;
+    color: #616161;
 }
-#chef span{
-    font-family: Script Mt;
-    text-align: center;
-    font-size: 40px;
-}
-#citation{
+
+#chef-non-responsive .first-middle{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    margin: 0px;
-    color: white;
-    font-family: Script Mt;
-    text-align: center;
-    padding-top: 10px;
-    height: 20vh;
-}
-.img_signature img{
-    width: 40%;
+    width: 100%;
+    height: 90%;
 }
 
+#chef-non-responsive .first-middle p{
+    padding-right: 100px;
+    font-size: 50px;
+    color: #616161;
+    font-family: Script MT;
+    text-align: center;
+}
+
+
+#chef-non-responsive .first-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+#chef-non-responsive .first-right p{
+    font-size: 50px;
+    color: #616161;
+    font-family: Script MT;
+    text-align: center;
+}
+
+
+#chef-non-responsive .second-partie{
+    padding-top: 170px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#chef-non-responsive .second-partie-content{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+#chef-non-responsive .second-left{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    height: 90%;
+}
+
+#chef-non-responsive .second-left p{
+    padding-left: 35px;
+    font-size: 50px;
+    color: #616161;
+    font-family: Script MT;
+    text-align: center;
+}
+
+#chef-non-responsive .second-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+#chef-non-responsive .second-middle p{
+    padding-left: 30px;
+    font-size: 50px;
+    color: #616161;
+    font-family: Script MT;
+    text-align: center;
+}
+
+#chef-non-responsive .second-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#citation{
+    display: none;
+}
 
   /* ------------------Section reserver------------------ */
 
 #reservation{
+    padding-top: 900px;
     width: 100%;
     height: 50vh;
     display: flex;
@@ -352,6 +408,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
 }
 
 
@@ -360,6 +418,7 @@ header {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+
 }
   
   input[type="radio"] {
